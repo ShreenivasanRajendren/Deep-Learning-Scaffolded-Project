@@ -1,0 +1,26 @@
+{
+  "Stage_1_Report": {
+    "timestamp": "2026-02-11T18:22:21.098513",
+    "evaluation_date": "2026-02-10",
+    "models_evaluated": [
+      "MLP",
+      "CNN_Features",
+      "Tabular_Baseline"
+    ],
+    "best_model": "MLP (Tabular)",
+    "best_f1_score": 0.6938775510204082,
+    "class_distribution": {
+      "mlp_train_classes": 2,
+      "cnn_train_classes": 2
+    },
+    "recommendations": [
+      "CNN features show promise despite class imbalance",
+      "Adjust incident threshold for balanced classes",
+      "Proceed to Stage 2 with CNN feature extractor"
+    ],
+    "files_generated": [
+      "stage1_final_report.png",
+      "stage1_results_table.csv"
+    ]
+  }
+}
